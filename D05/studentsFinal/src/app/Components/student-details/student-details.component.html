@@ -1,0 +1,29 @@
+<div *ngIf="student; else loading" class="container">
+    <div class="card border-info mb-3">
+      <div class="card-header bg-info text-white"><h2>{{student.name}}</h2>
+        <h4 class="card-text">@{{student.username}}</h4>
+    </div>
+      
+      <div class="card-body">
+        <p class="card-text">{{student.email}}</p>
+        <p class="card-text">{{student.address.street}}, {{student.address.city}}</p>
+        <p class="card-text">{{student.phone}}</p>
+            <p class="card-text">Age: {{student.age}}</p>
+            <p class="card-text">Courses:</p>
+            <ul class="list-group">
+              <li class="list-group-item" *ngFor="let course of student.courses">
+                {{course.name}} ({{course.code}}) - {{course.instructor}} ({{course.credits}} credit hours)
+              </li>
+            </ul>
+      </div>
+    </div>
+  </div>
+  
+  <ng-template #loading>
+    <div class="container text-center">
+      <div class="spinner-border text-info mt-5" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </div>
+  </ng-template>
+  

@@ -1,0 +1,61 @@
+<div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-10">
+        <h2>Add New Student</h2>
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" #name placeholder="Enter name">
+          </div>
+          <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" class="form-control" #username placeholder="Enter username">
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone</label>
+            <input type="text" class="form-control" #phone placeholder="Enter phone number">
+          </div>
+          <div class="form-group">
+            <label for="city">City</label>
+            <input type="text" class="form-control" #city placeholder="Enter city">
+          </div>
+          <div class="form-group">
+            <label for="street">Street</label>
+            <input type="text" class="form-control" #street placeholder="Enter street">
+          </div>
+          <div class="form-group">
+            <label for="building">Building</label>
+            <input type="text" class="form-control" #building placeholder="Enter building number">
+          </div>
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" class="form-control" #email placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group">
+            <label for="age">Age</label>
+            <input type="number" class="form-control" #age placeholder="Enter age">
+          </div>
+          <h4>Course 1:</h4>
+          <div class="form-group">
+            <label for="courseName">Course Name</label>
+            <input type="text" class="form-control" #courseName placeholder="Enter course name">
+          </div>
+          <div class="form-group">
+            <label for="courseCode">Course Code</label>
+            <input type="text" class="form-control" #courseCode placeholder="Enter course code">
+          </div>
+          <div class="form-group">
+            <label for="courseInstructor">Course Instructor</label>
+            <input type="text" class="form-control" #courseInstructor placeholder="Enter course instructor">
+          </div>
+          <div class="form-group">
+            <label for="courseCredits">Course Credits</label>
+            <input type="number" class="form-control" #courseCredits placeholder="Enter course credits">
+          </div>
+          <button type="submit" class="btn btn-primary" (click)="add(name.value, username.value, phone.value, city.value, street.value, building.value, email.value, age.value, courseName.value, courseCode.value, courseInstructor.value, courseCredits.value)">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  

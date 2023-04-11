@@ -1,0 +1,9 @@
+<div class="slideshow-container">
+    <img [src]="currentSlide" alt="Slide">
+    <div class="slideshow-buttons">
+      <button (click)="prevSlide()">Prev</button>
+      <button (click)="nextSlide()">Next</button>
+      <button (click)="toggleSlideshow()">{{ slideshowOn ? 'Stop' : 'Slide' }}</button>
+    </div>
+  </div>
+  

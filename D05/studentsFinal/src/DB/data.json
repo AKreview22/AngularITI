@@ -1,0 +1,214 @@
+{
+  "students": [
+    {
+      "id": 2,
+      "name": "Fatma Ahmed",
+      "username": "ahmedf",
+      "phone": "0111-234-5678",
+      "address": {
+        "city": "Alexandria",
+        "street": "Raml Street",
+        "building": "20"
+      },
+      "email": "ahmedf@student.csc.edu.eg",
+      "age": 20,
+      "courses": [
+        {
+          "name": "Object Oriented Programming",
+          "code": "CSCI201",
+          "instructor": "Dr. Mona Ali",
+          "credits": 3
+        },
+        {
+            "name": "Data Structures and Algorithms",
+            "code": "CSCI202",
+            "instructor": "Dr. Ahmed Ali",
+            "credits": 4
+          },
+          {
+            "name": "Computer Networks",
+            "code": "CSCI401",
+            "instructor": "Dr. Ahmed Ali",
+            "credits": 3
+          },
+          {
+            "name": "Database Systems",
+            "code": "CSCI403",
+            "instructor": "Dr. Hossam Ahmed",
+            "credits": 3
+          },
+          {
+            "name": "Software Engineering",
+            "code": "CSCI501",
+            "instructor": "Dr. Amira Samir",
+            "credits": 4
+          }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Khaled Mahmoud",
+      "username": "mahmoudk",
+      "phone": "0102-345-6789",
+      "address": {
+        "city": "Cairo",
+        "street": "Kasr El Nile Street",
+        "building": "30"
+      },
+      "email": "mahmoudk@student.csc.edu.eg",
+      "age": 21,
+      "courses": [
+        {
+          "name": "Introduction to Programming",
+          "code": "CSCI101",
+          "instructor": "Dr. Ali Hassan",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Noura Mohamed",
+      "username": "nouram",
+      "phone": "0122-456-7890",
+      "address": {
+        "city": "Giza",
+        "street": "Pyramids Street",
+        "building": "40"
+      },
+      "email": "nouram@student.csc.edu.eg",
+      "age": 20,
+      "courses": [
+        {
+          "name": "Computer Networks",
+          "code": "CSCI401",
+          "instructor": "Dr. Ahmed Ali",
+          "credits": 3
+        },
+        {
+          "name": "Web Development",
+          "code": "CSCI501",
+          "instructor": "Dr. Fatma Hassan",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "name": "Ahmed Kamal",
+      "username": "AKreview22",
+      "phone": "01151827862",
+      "address": {
+        "city": "Giza",
+        "street": "Faisal",
+        "building": "800"
+      },
+      "email": "AKreview22@gmail.com",
+      "age": "25",
+      "courses": [
+        {
+            "name": "Object Oriented Programming",
+            "code": "CSCI201",
+            "instructor": "Dr. Mona Ali",
+            "credits": 3
+        },
+        {
+            "name": "Computer Sciences",
+            "code": "CS50",
+            "instructor": "Dr. Nada Hisham",
+            "credits": 3
+          }
+      ],
+      "id": 5
+    },
+    {
+        "id": 6,
+        "name": "Aisha Ahmed",
+        "username": "ahmeda",
+        "phone": "0111-345-6789",
+        "address": {
+        "city": "Cairo",
+        "street": "Zamalek",
+        "building": "10"
+        },
+        "email": "ahmeda@student.csc.edu.eg",
+        "age": 22,
+        "courses": [
+        {
+        "name": "Data Structures and Algorithms",
+        "code": "CSCI301",
+        "instructor": "Dr. Yasmin Abdelhamid",
+        "credits": 3
+        }
+        ]
+        },
+        {
+        "id": 7,
+        "name": "Mohammed Salem",
+        "username": "salemm",
+        "phone": "0101-234-5678",
+        "address": {
+        "city": "Alexandria",
+        "street": "Moharam Bek",
+        "building": "15"
+        },
+        "email": "salemm@student.csc.edu.eg",
+        "age": 21,
+        "courses": [
+        {
+        "name": "Operating Systems",
+        "code": "CSCI401",
+        "instructor": "Dr. Ahmed Yasser",
+        "credits": 3
+        }
+        ]
+        },
+        {
+        "id": 8,
+        "name": "Nada Hussein",
+        "username": "husseinn",
+        "phone": "0122-345-6789",
+        "address": {
+        "city": "Giza",
+        "street": "Dokki",
+        "building": "25"
+        },
+        "email": "husseinn@student.csc.edu.eg",
+        "age": 20,
+        "courses": [
+        {
+        "name": "Database Systems",
+        "code": "CSCI501",
+        "instructor": "Dr. Ali Mohamed",
+        "credits": 3
+        }
+        ]
+        },
+        {
+        "name": "Sara Ali",
+        "username": "alisa",
+        "phone": "01121875369",
+        "address": {
+        "city": "Cairo",
+        "street": "Maadi",
+        "building": "100"
+        },
+        "email": "alisa@gmail.com",
+        "age": "23",
+        "courses": [
+        {
+        "name": "Object Oriented Programming",
+        "code": "CSCI201",
+        "instructor": "Dr. Mona Ali",
+        "credits": 3
+        },
+        {
+        "name": "Artificial Intelligence",
+        "code": "CSCI601",
+        "instructor": "Dr. Rania Mahmoud",
+        "credits": 3
+        }
+        ],
+        "id": 9
+        }
+  ]
+}

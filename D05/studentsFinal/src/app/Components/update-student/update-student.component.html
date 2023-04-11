@@ -1,0 +1,61 @@
+<div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-10">
+        <h2>Edit Student</h2>
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" #name placeholder="Enter name" value="{{ student?.name }}">
+        </div>
+          <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" class="form-control" #username placeholder="Enter username" value="{{ student?.username }}">
+        </div>
+          <div class="form-group">
+            <label for="phone">Phone</label>
+            <input type="text" class="form-control" #phone placeholder="Enter phone number" value="{{ student?.phone }}">
+        </div>
+          <div class="form-group">
+            <label for="city">City</label>
+            <input type="text" class="form-control" #city placeholder="Enter city" value="{{ student?.address?.city }}">
+        </div>
+          <div class="form-group">
+            <label for="street">Street</label>
+            <input type="text" class="form-control" #street placeholder="Enter street" value="{{ student?.address?.street }}">
+        </div>
+          <div class="form-group">
+            <label for="building">Building</label>
+            <input type="text" class="form-control" #building placeholder="Enter building number" value="{{ student?.address?.building }}">
+        </div>
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" class="form-control" #email placeholder="Enter email" value="{{ student?.email }}">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group">
+            <label for="age">Age</label>
+            <input type="number" class="form-control" #age placeholder="Enter age" value="{{ student?.age }}">
+        </div>
+          <h4>Course 1:</h4>
+          <div class="form-group">
+            <label for="courseName">Course Name</label>
+            <input type="text" class="form-control" #courseName placeholder="Enter course name" value="{{ student?.courses[0]?.name }}">
+        </div>
+          <div class="form-group">
+            <label for="courseCode">Course Code</label>
+            <input type="text" class="form-control" #courseCode placeholder="Enter course code" value="{{ student?.courses[0]?.code }}">
+        </div>
+          <div class="form-group">
+            <label for="courseInstructor">Course Instructor</label>
+            <input type="text" class="form-control" #courseInstructor placeholder="Enter course instructor" value="{{ student?.courses[0]?.instructor }}">
+        </div>
+          <div class="form-group">
+            <label for="courseCredits">Course Credits</label>
+            <input type="number" class="form-control" #courseCredits placeholder="Enter course credits" value="{{ student?.courses[0]?.credits }}">
+        </div>
+          <button type="submit" class="btn btn-primary" (click)="update(name.value, username.value, phone.value, city.value, street.value, building.value, email.value, age.value, courseName.value, courseCode.value, courseInstructor.value, courseCredits.value)">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  

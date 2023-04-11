@@ -1,0 +1,34 @@
+
+<div class="container">
+  <div class="row">
+    <div class="column">
+      <form (ngSubmit)="getStudentData()" class="form" [formGroup]="formStudentValidation">
+        <div class="form-group d-flex m-auto mb-2">
+          <label  class="col-1">Name</label>
+          <input formControlName="Name" type="text" class="form-control">
+          <div *ngIf="!studentNameValid" style="color:red;">
+            not Valid(minimum length=3)
+          </div>
+        </div>
+        <div class="form-group d-flex m-auto mb-2">
+          <label class="col-1">Age</label>
+          <input formControlName="Age" type="Number" class="form-control">
+          <div *ngIf="!studentAgeValid" style="color:red;">
+            not Valid (20 &lt; age &lt;  40)
+          </div>
+        </div>
+        <div class="form-group d-flex m-auto mb-2">
+          <label class="col-1">Email</label>
+          <input formControlName="Email" type="email" class="form-control">
+          <div *ngIf="!studentEmailValid" style="color:red;">
+            not Valid(example a@b.com)
+          </div>
+        </div>
+        <div class="form-group text-center m-auto mb-2">
+
+          <input type="submit" value="submit" class="btn btn-outline-success">
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
